@@ -1,0 +1,18 @@
+.cart-item {
+    transition: transform 0.2s;
+  }
+  
+  .cart-item:hover {
+    transform: translateY(-3px);
+  }
+  
+  .cart-item-image {
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .cart-summary {
+    position: sticky;
+    top: 20px;
+  }
